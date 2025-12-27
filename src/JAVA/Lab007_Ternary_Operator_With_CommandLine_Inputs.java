@@ -6,10 +6,9 @@ public class Lab007_Ternary_Operator_With_CommandLine_Inputs {
 
     public static void main(String[] args) {
         String age_input_string = args[0];
-        System.out.println(age_input_string instanceof String);
-        int age_user_input = Integer.parseInt(age_input_string); // 25
+        int age_user_input = Integer.parseInt(age_input_string);
 
-        String result = (age_user_input < 18) ? "Minor" : (age_user_input <= 60) ? "Adult" : "Sr. Citizen";
+        String result = (age_user_input < 18) ? "Person is Minor" : (age_user_input <= 60) ? "Person is Adult" : "Person is Sr. Citizen";
         System.out.println(result);
     }
 }
