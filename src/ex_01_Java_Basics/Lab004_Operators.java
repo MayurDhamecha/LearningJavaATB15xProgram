@@ -35,5 +35,11 @@ public class Lab004_Operators {
         System.out.println("a <= b: " + (g <= h));
         System.out.println("a == c: " + (g == i));
         System.out.println("a != c: " + (g != i));
+
+        // Logical Operators
+        boolean localLogicalOperator= true;
+        System.out.println(localLogicalOperator);
+        System.out.println(!localLogicalOperator);
+        System.out.println(!!localLogicalOperator);
     }
 }
