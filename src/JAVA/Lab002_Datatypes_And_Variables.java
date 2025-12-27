@@ -1,4 +1,4 @@
-package ex_01_Java_Basics;
+package JAVA;
 
 public class Lab002_Datatypes_And_Variables {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ex_01_Java_Basics;
+package JAVA;
 
 public class Task_17_Print_Table_9_Using_Printf {
     public static void main(String[] args) {
